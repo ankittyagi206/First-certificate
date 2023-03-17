@@ -1,0 +1,12 @@
+ .container-read {
+     position: absolute;
+     bottom: -350%;
+     left: 4%;
+     width: 50%;
+ }
+
+
+ .read-or-hide {
+     color: rgb(11, 30, 243);
+     cursor: pointer;
+ }

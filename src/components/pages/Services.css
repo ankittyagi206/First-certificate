@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+}
+ .services {
+display: flex;
+height: 90vh;
+align-items: center;
+justify-content: center;
+font-size: 3rem;
+}
+
+.mid-div h1{
+  position: relative;
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 15px;}
+}
+
+.services .mid-div p {
+  margin-left: 300px;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.services .mid-div {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffff;
+  width: 100%;
+  height: 20%;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 42px;
+}
+
+.main-services img {vertical-align: middle;}
+
+.main-services .services {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.service-detail
+{
+  border-radius: 15px;
+    box-shadow: 0 0 20px #f5eded;
+}
+
+.services-section {
+  margin: 30px 0 10px;
+  background: #fff;
+}
+
+.content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services-section .content-container{
+  margin-bottom: 40px;
+}
+
+ .content-container h6 {
+  font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #222;
+    letter-spacing: 8px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.content-container h2{
+  position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    color: #222;
+    line-height: 45px;
+    padding-bottom: 35px;
+}
+
+.content-container h2 span {
+  font-weight: 300;
+  color: #222;
+  font-size: 40px;
+  margin-bottom: 0;
+  display: inline-block;
+  line-height: 0;
+  font-family: Ubuntu,sans-serif;
+}
+
+.main-client {
+width: 200px;
+height: 200px;
+}
+
+/* .client-image{
+  height: 200%;
+  width: 1200px;
+}
+
+  .client-image img {
+    position: relative;
+    margin-bottom: 1px;
+    margin-top: -30px;
+    margin-left: 35px;
+    width: 100%;
+}
+
+*/
+/* @media only screen and (max-width: 1024px) {
+  .services .mid-div {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffff;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 42px;
+  }
+} */
+
+@media only screen and (max-width: 1024px) {
+  .services {
+    position: unset;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .services .mid-div p {
+    margin-left: 27px;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+}

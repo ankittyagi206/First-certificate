@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.body-container h1 {
+    display: flex;
+    background: #000;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.iso-cards {
+    position: relative;
+}
+
+.iso-cards h1 {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -1010px;
+    transform: translate(-50%, -50%);
+}
+
+/* 
+
+.iso-cards h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px #22137a;
+}
+
+.iso-cards h1:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%,
+                16% 44%,
+                33% 50%,
+                54% 60%,
+                70% 61%,
+                84% 59%,
+                100% 52%,
+                100% 100%,
+                0% 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%,
+                15% 65%,
+                34% 66%,
+                51% 62%,
+                67% 50%,
+                84% 45%,
+                100% 46%,
+                100% 100%,
+                0% 100%);
+    }
+} */
+
+.iso-cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.iso-cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+    margin-top: -911px;
+}
+
+.iso-cards__items {
+    margin-bottom: 24px;
+}
+
+.iso-cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+}
+
+
+.iso-cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.iso-cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+}
+
+.fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+}
+
+.iso-cards__item__pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(44, 129, 198);
+    background-color: #1f98f4;
+    box-sizing: border-box;
+}
+
+.iso-cards__item__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+}
+
+.iso-cards__item__img:hover {
+    transform: scale(1.1);
+}
+
+.iso-cards__item__info {
+    padding: 20px 30px 30px;
+}
+
+.iso-cards__item__text {
+    color: #252e48;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.cards__item__text {
+    color: #252e48;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .iso-cards__items {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .iso-cards__item {
+        margin-bottom: 2rem;
+    }
+}
+
+/* h2 cards */
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}

@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.PciMainContainer {
+    margin-bottom: -1012px;
+}
+
+.pciImg {
+    position: relative;
+    padding: 85px 0 800px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.pciImg img {
+    width: 1263px;
+    height: 470px;
+    margin-left: -15px;
+    margin-bottom: 33px;
+    margin-top: -363px;
+}
+
+
+.pci-env .pci-header {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+}
+
+.pci-env .pci-header h1 {
+    margin-left: -935px;
+    margin-top: -353px;
+    font-weight: bolder;
+    color: #e5e5ea;
+    font-family: Montserrat;
+}
+
+.pci-env .pci-header p {
+    margin-left: 118px;
+    margin-top: -11px;
+    font-size: 22px;
+    color: #e5e5ea;
+    font-family: Montserrat;
+}
+
+.pci-env {
+    margin-top: 277px;
+    margin-left: 15px;
+}
+
+.pci-mid-div {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 300px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: -300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pci-left-column {
+    position: absolute;
+    width: 615px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -731px;
+}
+
+.pci-about-left-column {
+    margin-right: 30px;
+    padding: 135px 85px 145px 52px;
+    background: #3e7bc1e8;
+    margin-top: -350px;
+    height: 47 0px;
+    padding-bottom: 2px;
+}
+
+.pci-section-title {
+    padding: 4rem;
+    background-color: #3e7bc11a;
+    border-radius: 4px;
+    margin-top: 164px;
+}
+
+
+.pci-sec-title h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: #080808;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+
+
+.pci-sec-title h6 {
+    margin-top: -100px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 8px;
+    padding-bottom: 5px;
+}
+
+.pci-sec-title h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 50px;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+}
+
+.pci-sec-title h2 span {
+    font-weight: 300;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0;
+    display: inline-block;
+    line-height: 50px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.pci-sec-title h2 .color-text {
+    font-weight: 700;
+    color: #222;
+}
+
+
+.pci-sec-title h2 span {
+    font-weight: 300;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0;
+    display: inline-block;
+    line-height: 50px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.pci-about-left-column .text {
+    font-size: 15px;
+    margin-left: -23px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 23px;
+    font-family: Poppins, sans-serif;
+}
+
+.pci-about-left-column p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+
+.text,
+p,
+span {
+    position: relative;
+    line-height: 1.8em;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+}
+
+
+.pci-row-col {
+    margin: 0 auto;
+    max-width: 1260px;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0;
+    letter-spacing: 0;
+    margin-left: -9px;
+    margin-right: -10px;
+}
+
+.pci-col-col {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+
+.pci-row-col>* {
+    font-size: 1rem;
+    letter-spacing: .01579rem;
+}
+
+.pci-wrapper-col {
+    clear: both;
+    /* padding: 51px; */
+    padding: 33px;
+}
+
+.pci-align-text-center-col {
+    font-family: IBMPlexSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center !important;
+    margin-left: 608px;
+    margin-top: -1178px;
+}
+
+.pci-align-text-center-col p {
+    margin-bottom: 16px;
+}
+
+.custom-bold-col {
+    font-weight: 700 !important;
+}
+
+.pci-align-text-center-col span {
+    text-align: center !important;
+    text-align: center;
+}
+
+.pci-wrapper-col p,
+ul,
+li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.pci-wrapper-col li {
+    margin-left: 126px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+
+}
+
+.pci-wrapper-col ul {
+    padding-top: 30px;
+    margin-left: 585px;
+}
+
+.pcirstyle li:before {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    content: "\f10c";
+    font-family: fontAwesome;
+    color: #1717d6;
+}
+
+.pci-enquire-div {
+    margin-top: -916px;
+    /* margin-left: 764px; */
+    margin-left: 822px;
+}
+
+.pci-style-two {
+    position: relative;
+    /* padding: 15px 140px; */
+    padding: 13px 43px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background: #000;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.pci-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pci-container .pci-row:first-child {
+    margin-bottom: 30px;
+}
+
+.pci-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pci-col-md-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.pci-section-title {
+    padding: 4rem;
+    background-color: #3e7bc11a;
+    border-radius: 4px;
+    margin-top: -117px;
+}
+
+.pci-section-title h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    color: #222;
+    line-height: 35px;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    margin: 0;
+    font-family: Ubuntu, sans-serif;
+}
+
+.pci-section-title h2:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 2px;
+    content: "";
+    background: black;
+}
+
+:before {
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+    box-sizing: border-box;
+}
+
+.pci-section-title h2 span {
+    font-weight: 300;
+    color: #222;
+    font-size: 40px;
+    margin-bottom: 0;
+    display: inline-block;
+    line-height: 50px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.text,
+p,
+span {
+    position: relative;
+}
+
+.pci-section-title h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    color: #222;
+    line-height: 45px;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* position: relative;
+    font-weight: 400;
+    margin: 0;
+    background: 0 0;
+    line-height: 1.4em; */
+    font-family: Ubuntu, sans-serif;
+}
+
+.pci-renovation-items {
+    margin-top: 30px;
+}
+
+.pci-renovation-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pci-renovation-item {
+    padding-left: 142px;
+}
+
+.pci-renovation-item h3 {
+    font-size: 17px;
+    color: #222;
+    font-weight: 500;
+    display: inline;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    /* font-weight: 400; */
+    margin: 0;
+    background: 0 0;
+    line-height: 1.4em;
+    font-family: Ubuntu, sans-serif;
+}
+
+.pci-renovation-item h3:before {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    content: "\f10c";
+    font-family: fontAwesome;
+    color: #1717d6;
+}
+
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.pci-renovation-item h3 {
+    font-size: 17px;
+    color: #222;
+    font-weight: 500;
+    display: inline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    /* font-weight: 400; */
+    margin: 0;
+    background: 0 0;
+    line-height: 1.4em;
+    font-family: Ubuntu, sans-serif;
+}
+
+.pci-renovation-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pci-renovation-item {
+    padding-left: 40px;
+}
+
+.pci-organization {
+    margin-top: -528px;
+    margin-bottom: 1200px;
+}
+
+.pci-nopadreq img {
+    vertical-align: middle;
+    border-style: none;
+    /* height: 100%; */
+    position: absolute;
+    display: inline-block;
+    margin-left: 1027px;
+    margin-top: -33px;
+    border-radius: 1px;
+    height: auto;
+    max-width: 15%;
+}
+
+.pcitags p {
+    text-align: center;
+    font-size: 18px;
+    margin-right: 269px;
+    margin-top: 35px;
+    font-family: 'proxima_novasemibold';
+
+}
+
+.pci h2 {
+    font-size: 25px;
+    margin-left: 265px;
+    font-family: 'proxima_novasemibold';
+
+}
+
+
+.pcitags {
+    margin-top: 140px;
+}
+
+
+
+.pcicert2 {
+    margin-top: 13px;
+}
+
+.pcicert2 li {
+    font-size: 15px;
+    margin-left: 141px;
+}
+
+.pcicert2 li::before {
+    position: absolute;
+    left: -32px;
+    top: 0;
+    content: "\f10c";
+    font-family: fontAwesome;
+    color: #1717d6;
+}
+
+.pci-list-item {
+    padding-left: 142px;
+}

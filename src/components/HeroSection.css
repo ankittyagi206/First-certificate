@@ -1,0 +1,108 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  /* height: 100%; */
+  position: relative;
+  z-index: -1;
+}
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  margin-top: -9px;
+  position: relative;
+  z-index: 0;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  top: 30%;
+  font-size: 60px;
+  font-family: Garamond, serif;
+  position: absolute;
+}
+
+.hero-container > p {
+  position: absolute;
+  top: 44%;
+  font-size: 26px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+}
+
+.hero-btns {
+  /* margin-top: 32px; */
+  position: absolute;
+  top: 55%;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  video {
+    position: relative;
+  }
+
+  .hero-container {
+    background-color: blue;
+    position: relative;
+  }
+  .hero-container > h1 {
+    /* font-size: 70px; */
+    /* margin-top: -150px; */
+    position: absolute;
+    top: 25%;
+  }
+
+  .hero-container > p {
+    position: absolute;
+    top: 35%;
+  }
+
+  .hero-btns {
+    /* margin-top: 32px; */
+    position: absolute;
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    /* font-size: 70px; */
+    /* margin-top: -150px; */
+    position: absolute;
+    top: 25%;
+  }
+
+  .hero-container > p {
+    position: absolute;
+    top: 35%;
+  }
+  .hero-btns {
+    /* margin-top: 32px; */
+    position: absolute;
+    top: 45%;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

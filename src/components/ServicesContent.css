@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.before-service{
+    margin-top: -200px;
+}
+
+.before-service {
+float: left;
+clear: none;
+width: 100%;
+}
+
+.before-service h2 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-top: -360px;
+    font-family: inherit;
+    text-shadow: 1px 1px;
+}
+
+.image-service img {
+    width: 600px;
+    margin-left: 150px;
+    margin-top: -500px;
+    margin-bottom: 200px;
+    opacity: 0.9;
+}
+
+img:hover{
+    opacity: 2.5;
+}
+
+.image-service {
+    box-sizing: border-box;
+    display: block;
+    width: 500px;
+    margin-left: -60px;
+    margin-bottom: 70px;
+}
+
+.blog-service {
+    margin-top: -40px;
+}
+
+.blog-service h2{
+    margin-bottom: 70px;
+    margin-left: 350px;
+        font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.image-content p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    top: -570px;
+    left: 770px;
+    text-shadow: 0.3px 0.3px;
+    background-color: #bebef533;
+    width: 500px;
+    border: 0px solid rgb(64, 34, 34);
+    padding: 50px;
+    margin: 30px;
+}
+
+.image-content p:hover{
+    background: #ced2d3;
+}
+
+.blog-service1{
+    transition: none 0s ease 0s;
+    line-height: 17px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 56px 35px 60px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -500px;
+    /* background-color: pink; */
+        background-color: #bebef533;
+}
+
+.blog-service1 h3{
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 39px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    font-family: Ubuntu,sans-serif;
+    color: #1717d6;
+}
+
+.blog-service1 h1{
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 60px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 52px;
+    position: relative;
+    font-family: Ubuntu,sans-serif;
+    color: #1717d6;
+}
+
+.blog-service1 p{
+    color: black;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 21px;
+    border-width: 0px;
+    margin: 0px 0px 22px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+    font-family: Ubuntu,sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.blog-image img {
+    width: 400px;
+    margin-left: 800px;
+    margin-top: -285px;
+    margin-bottom: 33px;
+    opacity: 0.9;
+}
+
+.blog-image {
+    box-sizing: border-box;
+    display: block;
+    width: 500px;
+    margin-left: -60px;
+    margin-bottom: 70px;
+}
+
+.blog-image img:hover {
+    background: #d1eaf4;
+    opacity: 1.5;
+}
+.blog-service {
+    height: 200%;
+    width: 1200px;
+}
+
+.blog-service img {
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: -42px;
+    margin-left: 35px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .before-service h2 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-service img {
+        width: 438px;
+        margin-top: -110px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-content p {
+        margin-top: 400px;
+        margin-left: -650px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-service1 {
+        margin-top: -611px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-image img {
+        margin-top: -300px;
+        width: 200px;
+        margin-left: 460px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-service1 h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-service1 h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-service1 p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-service h2 {
+        margin-left: 132px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .blog-service img {
+        margin-left: 26px;
+        width: 577px
+    }
+}

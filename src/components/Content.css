@@ -1,0 +1,136 @@
+.main-content {
+  padding-top: 2px;
+  padding-right: 30px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  background: #fff;
+}
+
+.mid-content {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 300px;
+  height: 400px;
+  width: 400px;
+}
+
+/* .mid-div img{
+   width: 100%;
+   height: auto;
+}
+
+.para-content {
+background-color: #0a0b0b;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vh;
+} */
+
+.left-content{
+  position: absolute;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about-left-content {
+    margin-right: 30px;
+    padding: 120px 100px 15px 52px;
+    background: #3e7bc18f;
+    /* margin-top: -100px; */
+    height: 47  0px;
+}
+
+.sec-title-content h6 {
+  margin-top: -100px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #292d33;
+  letter-spacing: 8px;
+  padding-bottom: 5px;
+}
+
+
+.sec-title-content h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 50px;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+}
+
+.sec-title-content h2 span {
+  font-weight: 300;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 0;
+  display: inline-block;
+  line-height: 50px;
+  font-family: Ubuntu,sans-serif;
+}
+
+.sec-title-content h2 .color-text {
+  font-weight: 700;
+  color: #222;
+}
+
+.text, p, span {
+  position: relative;
+}
+
+.sec-title-content h2 span {
+  font-weight: 300;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 0;
+  display: inline-block;
+  line-height: 50px;
+  font-family: Ubuntu,sans-serif;
+}
+
+.about-left-content .text {
+  font-size: 18px;
+  color: #292d33;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 23px;
+  font-family: Poppins,sans-serif;
+}
+
+.about-left-content p {
+  font-size: 14px;
+  color: #292d33;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.text, p, span {
+  position: relative;
+  line-height: 1.8em;
+  font-size: 14px;
+  font-family: Poppins,sans-serif;
+}
+@media only screen and (max-width: 1024px) {
+  .about-left-content {
+    margin-bottom: 200px;
+    width: 530px;
+    height: 845px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-left-content .text {
+    font-size: 14px;
+  }
+}

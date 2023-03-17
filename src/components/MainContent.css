@@ -1,0 +1,178 @@
+* {
+    text-rendering: optimizeLegibility;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-weight: 400;
+    color: #232323;
+    font-family: IBMPlexSans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.4;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ds-flex{
+    display: flex;
+
+}
+
+.rows-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: calc(100vh - 336px);
+    width: 100%;
+}
+
+.ds-row {
+    margin: 0 auto;
+    max-width: 1260px;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0;
+    letter-spacing: 0;
+    margin-left: -9px;
+    margin-right: -10px;
+}
+
+.ds-col- {
+    padding: 0%;
+}
+
+.ds-col-0, .ds-col-1, .ds-col-10, .ds-col-11, .ds-col-12, .ds-col-2, .ds-col-3, .ds-col-4, .ds-col-5, .ds-col-6, .ds-col-7, .ds-col-8, .ds-col-9, .ds-col-lg-0, .ds-col-lg-1, .ds-col-lg-10, .ds-col-lg-11, .ds-col-lg-12, .ds-col-lg-2, .ds-col-lg-3, .ds-col-lg-4, .ds-col-lg-5, .ds-col-lg-6, .ds-col-lg-7, .ds-col-lg-8, .ds-col-lg-9, .ds-col-md-0, .ds-col-md-1, .ds-col-md-10, .ds-col-md-11, .ds-col-md-12, .ds-col-md-2, .ds-col-md-3, .ds-col-md-4, .ds-col-md-5, .ds-col-md-6, .ds-col-md-7, .ds-col-md-8, .ds-col-md-9, .ds-col-sm-0, .ds-col-sm-1, .ds-col-sm-10, .ds-col-sm-11, .ds-col-sm-12, .ds-col-sm-2, .ds-col-sm-3, .ds-col-sm-4, .ds-col-sm-5, .ds-col-sm-6, .ds-col-sm-7, .ds-col-sm-8, .ds-col-sm-9, .ds-col-xl-0, .ds-col-xl-1, .ds-col-xl-10, .ds-col-xl-11, .ds-col-xl-12, .ds-col-xl-2, .ds-col-xl-3, .ds-col-xl-4, .ds-col-xl-5, .ds-col-xl-6, .ds-col-xl-7, .ds-col-xl-8, .ds-col-xl-9, .ds-col-xs-0, .ds-col-xs-1, .ds-col-xs-10, .ds-col-xs-11, .ds-col-xs-12, .ds-col-xs-2, .ds-col-xs-3, .ds-col-xs-4, .ds-col-xs-5, .ds-col-xs-6, .ds-col-xs-7, .ds-col-xs-8, .ds-col-xs-9 {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+
+.ds-row>* {
+    /* font-size: 19px; */
+    font-size: 1rem;
+    letter-spacing: .01579rem;
+}
+
+.widget-wrapper {
+    clear: both;
+    padding: 10px;
+}
+
+.ds-align-text-center{
+font-family: IBMPlexSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+text-align: center!important;
+margin-left: -550px;
+margin-top: -100px;
+}
+
+.ds-align-text-center p {
+    margin-bottom: 16px;
+}
+
+/* .custom-bold {
+    font-weight: 800 !important;
+}
+
+*/ .ds-align-text-center span::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 340px;
+    height: 2px;
+    content: "";
+    background: black;
+}
+.ds-align-text-center span {
+    text-align: center!important;
+    /* margin-left: -110px; */
+    text-align: center;
+    /* added new */
+        font-size: 26px;
+        margin-bottom: 0;
+        display: inline-block;
+        line-height: 44px;
+        color: #1717d6;
+        font-weight: bold;
+        font-family: Ubuntu, sans-serif;
+    }
+    
+    .about-animate1 li::before {
+        position: absolute;
+        left: -32px;
+        top: 0;
+        content: "\f10c";
+        font-family: fontAwesome;
+        color: #1717d6;
+}
+
+.widget-wrapper p, ul, li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.widget-wrapper li{
+    margin-left: 70px;
+}
+
+.widget-wrapper ul{
+padding-top: 30px;
+}
+
+.text-widget {
+    font-family: IBMPlexSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.text-widget p{
+    margin-bottom: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.heading-row h6 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.widget-wrapper img{
+    border-style: none;
+    margin-top: -292px;
+    border-radius: 20px;
+}
+
+.image-widget {
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    margin-left: 640px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .ds-align-text-center span {
+        margin-top: 400px;
+        margin-left: 400px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-widget {
+        margin-left: 350px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .widget-wrapper img {
+        margin-top: -102px;
+    }
+}
